@@ -22,7 +22,6 @@ import {
   User,
   X,
   CakeSlice,
-  type Icon as LucideIcon,
   GlassWater,
   Home,
   UploadCloud,
@@ -40,8 +39,6 @@ import {
   LucideProps,
   Palette,
 } from "lucide-react";
-
-export type Icon = LucideIcon;
 
 export const Icons = {
   notepad: NotepadText,

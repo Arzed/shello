@@ -2,7 +2,6 @@ import { Outlet } from "react-router-dom";
 import SiteHeader from "./site-header";
 import { cn } from "@/lib/utils";
 import Footer from "./footer";
-import { siteConfig } from "@/config/site";
 
 export default function Layout() {
   return (
@@ -14,7 +13,7 @@ export default function Layout() {
         <div className="flex-1">
           <Outlet />
         </div>
-        <Footer items={siteConfig.mainNav} />
+        <Footer />
       </div>
     </body>
   );
