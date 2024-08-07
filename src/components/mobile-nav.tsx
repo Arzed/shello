@@ -1,5 +1,5 @@
 import { NavItem } from "@/types/nav";
-import React, { useState } from "react";
+import React from "react";
 import { Button } from "./ui/button";
 import { Icons } from "./icons";
 import { useLocation } from "react-router-dom";
@@ -12,7 +12,7 @@ interface MobileNavProps {
 }
 
 const MobileNav = (props: MobileNavProps) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = React.useState(false);
   const location = useLocation();
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
