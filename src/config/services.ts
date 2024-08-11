@@ -1,4 +1,5 @@
 import logoDesign from "@/assets/logo-design.webp";
+import studio from "@/assets/studio-1.webp";
 
 export const services = [
   {
@@ -7,6 +8,7 @@ export const services = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
     image: logoDesign,
+    landscapeImg: studio,
     alt: "Image by Freepik",
   },
   {
@@ -15,6 +17,7 @@ export const services = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
     image: logoDesign,
+    landscapeImg: studio,
     alt: "Image by Freepik",
   },
   {
@@ -23,6 +26,7 @@ export const services = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
     image: logoDesign,
+    landscapeImg: studio,
     alt: "Image by Freepik",
   },
   {
@@ -31,6 +35,7 @@ export const services = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Omnis perferendis hic asperiores quibusdam quidem voluptates doloremque reiciendis nostrum harum. Repudiandae?",
     image: logoDesign,
+    landscapeImg: studio,
     alt: "Image by Freepik",
   },
 ];

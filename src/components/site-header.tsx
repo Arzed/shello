@@ -5,7 +5,7 @@ import MobileNav from "./mobile-nav";
 
 export default function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background">
+    <header className="sticky top-0 z-40 w-full border-b bg-background/75 backdrop-blur-sm">
       <div className="mx-4 md:mx-20 flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-4">
